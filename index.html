@@ -404,7 +404,7 @@ Priority GEOs: ${GEO_DATA.filter(g=>g.priority==='Priority').map(g=>g.geo).join(
 
 Send network name, GEOs, OS, source type, expected daily volume and PIDs for test.`; }
 function copyBrief() { copyText(briefText()); }
-function copyEmail() { copyText('e.podgayskaya@advisability.com'); }
+function copyEmail() { copyText('e.podgayskaya@appska.com'); }
 function mailtoDraft() { const subject=encodeURIComponent('1xBet World Cup 2026 — PIDs for test'); const body=encodeURIComponent(document.getElementById('pidBox').value || pidTemplate()); window.location.href=`mailto:e.podgayskaya@advisability.com?subject=${subject}&body=${body}`; }
 
 function renderMatches() {
